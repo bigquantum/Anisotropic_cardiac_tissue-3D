@@ -1,0 +1,64 @@
+Initial condition source: ./initial_conditions/readyCUDA/init_g2.4.dat
+
+********Grid dimensions*********
+# grid points X = 500
+# grid points Y = 500
+# grid points Z = 32
+Total number of nodes: 8000000
+
+********Spatial dimensions*********
+Physical dx 0.020000 cm 
+Physical dy 0.020000 cm 
+Physical dz 0.009375 cm 
+Physical Lx length 10.000000 cm 
+Physical Ly length 10.000000 cm 
+Physical Lz length 0.300000 cm 
+
+********Diffusion*********
+Diffusion parallel component: 0.001000 cm^2/ms
+Diffusion perpendicular component: 0.000200 cm^2/ms
+Diffusion Dxx: 0.000200 cm^2/ms
+Diffusion Dyy: 0.001000 cm^2/ms
+Diffusion Dzz: 0.000200 cm^2/ms
+
+******Anisotropic tissue*******
+Diffusion Dxy: -0.000000 cm^2/ms
+Initial fiber angle: 90.000000 deg
+Total fiber rotation angle: 180.000000 deg
+Fiber rotation rate: 60.000000 deg/mm
+
+*****Time series******
+Electrode position x: 0.500000 cm
+Electrode position y: 0.500000 cm
+Electrode position z: 0.030000 cm
+
+********Time & performance*********
+FPS:                    2.736497
+Total number of frames: 17
+Physical time:          9.000000 ms
+Total time (real life): 6.476634 s 
+Iterations per frame: 50
+
+********Initial condition*********
+Final iteration count: 900
+Maximum number of iterations: 1000
+Counterclock spin
+
+********Model parameters*********
+g_fi:    2.400000
+tau_r:   50.000000
+tau_si:  44.840000
+tau_o:   8.300000
+tau_vp:  3.330000
+tau_v1n: 1000.000000
+tau_v2n: 19.200001
+tau_wp:  667.000000
+tau_wn:  11.000000
+u_c:     0.130000
+u_v:     0.055000
+u_csi:   0.850000
+tau_d (C_m/g_fi):   0.416667
+K:       10.000000
+C_m:      1.000000
+
+Filament voltage threshold: 0.500000 Volts
