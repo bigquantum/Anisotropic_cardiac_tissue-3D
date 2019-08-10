@@ -1,6 +1,6 @@
 # Anisotropic cardiac tissue in 3D
 
-## This software was developerd by: **Hector Augusto Velasco-Perez** @CHAOLS Lab@Georgia Institute of Technology
+## This software was developerd by: **Hector Augusto Velasco-Perez** @CHAOS Lab@Georgia Institute of Technology
 
 ### Special thanks to:
 - Dr. Flavio Fenton
@@ -8,12 +8,17 @@
 - Dr. Abouzar Kaboudian
 - Dr. Shahriar Iravanian
 
-# Software general decription
+## Software general decription
 This software allows you to solve the Fenton-Karma (FK) model with a diffusive coupuling in a 3D domain with a constant rotating conducting anisotropy. The software allows for input/output files and real time graphycs for user interactivity. Additional features such as chirality selection, window snapshots, filament tracking, among others are available.
 
-# Software organization (by function)
+## Software requirements
+- CUDA v/ or higher
+- glew.h, glut.h, freeglut.h
+- SOIL.h library (sudo apt-get install libsoil-dev)
+
+## Software organization (by function)
 
 
 
-# Software use
+## Software use
 
