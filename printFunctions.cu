@@ -414,6 +414,8 @@ void printParameters(paramVar param, const char strA[], int x) {
 
 	// ********Time & performance*********
 	strcpy(text, "FPS");
+	fprintf(fp2,"%s,%f\n", text , param.dt);
+	strcpy(text, "Time step");
 	fprintf(fp2,"%s,%f\n", text , (float)param.fpsCount);
 	strcpy(text, "Total number of frames");
 	fprintf(fp2,"%s,%d\n", text , param.frameCount);
