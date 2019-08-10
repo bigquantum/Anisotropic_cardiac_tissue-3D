@@ -3,19 +3,11 @@ clear all, close all, clc
 addpath('../image_improvement');
 
 %% Load data
-% dataTipraw = importdata('./DATA/thickness_3mm/dataTip.dat');
-% dataTipGradraw = importdata('./DATA/thickness_3mm/dataGrad.dat');
-% dataTipSizeraw = importdata('./DATA/thickness_3mm/dataTipSize.dat');
-% 
-% fid = fopen('./DATA/thickness_3mm/dataparam.csv');
-% parameters = textscan(fid,'%s%s','delimiter',',');
-
-dataTipraw = importdata('./DATA/thickness_3mm_periodic/dataTip.dat');
-dataTipGradraw = importdata('./DATA/thickness_3mm_periodic/dataGrad.dat');
-dataTipSizeraw = importdata('./DATA/thickness_3mm_periodic/dataTipSize.dat');
-% stateVar = importdata('./DATA/thickness_3mm_periodic/data3d_100050.dat');
-
-fid = fopen('./DATA/thickness_3mm_periodic/dataparam.csv');
+dataTipraw = importdata('./DATA/EPIENDO1/dataTip.dat');
+dataTipGradraw = importdata('./DATA/EPIENDO1/dataGrad.dat');
+dataTipSizeraw = importdata('./DATA/EPIENDO1/dataTipSize.dat');
+ 
+fid = fopen('./DATA/EPIENDO1/dataparam.csv');
 parameters = textscan(fid,'%s%s','delimiter',',');
 
 parameters{1,:}

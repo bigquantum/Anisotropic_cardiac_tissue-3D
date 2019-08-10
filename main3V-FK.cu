@@ -1,4 +1,19 @@
 
+/*
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Developed by Hector Augusto Velasco-Perez 
+@ CHAOS Lab 
+@ Georgia Institute of technology
+August 07/10/2019
+
+Special thanks to:
+Dr. Flavio Fenton
+Dr. Claire Yanyan Ji
+Dr. Abouzar Kaboudian
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
