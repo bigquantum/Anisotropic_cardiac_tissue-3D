@@ -2,9 +2,9 @@
 /*
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-Developed by Hector Augusto Velasco-Perez 
+Developed by: Hector Augusto Velasco-Perez 
 @ CHAOS Lab 
-@ Georgia Institute of technology
+@ Georgia Institute of Technology
 August 07/10/2019
 
 Special thanks to:

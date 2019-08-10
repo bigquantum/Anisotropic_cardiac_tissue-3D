@@ -1,3 +1,20 @@
+
+/*
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Developed by Hector Augusto Velasco-Perez 
+@ CHAOS Lab 
+@ Georgia Institute of technology
+August 07/10/2019
+
+Special thanks to:
+Dr. Flavio Fenton
+Dr. Claire Yanyan Ji
+Dr. Abouzar Kaboudian
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
+
 __global__ void FK_3V_kernel(stateVar g_out, stateVar g_in, conductionVar r,
   REAL *J_d);
 __host__ __device__ int iDivUp(int a, int b);
