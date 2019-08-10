@@ -8,4 +8,12 @@
 - Dr. Abouzar Kaboudian
 - Dr. Shahriar Iravanian
 
-Hola Mundo
+# Software general decription
+This software allows you to solve the Fenton-Karma (FK) model with a diffusive coupuling in a 3D domain with a constant rotating conducting anisotropy. The software allows for input/output files and real time graphycs for user interactivity. Additional features such as chirality selection, window snapshots, filament tracking, among others are available.
+
+# Software organization (by function)
+
+
+
+# Software use
+
