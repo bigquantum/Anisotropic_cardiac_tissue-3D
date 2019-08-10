@@ -3,7 +3,7 @@ a.out : main3V-FK.cu FK-3V-master.cu globalVariables.cuh hostPrototypes.h typede
 	devicePrototypes.cuh helper_functions.cu openGLPrototypes.h \
 	volRenderCuda.cu printFunctions.cu SOIL.h
 	nvcc main3V-FK.cu FK-3V-master.cu helper_functions.cu volRenderCuda.cu  \
-	printFunctions.cu -arch=sm_35 -rdc=true -lglut -lGL -lGLEW \
+	printFunctions.cu -arch=sm_31 -rdc=true -lglut -lGL -lGLEW \
 	-lSOIL -std=c++11
 result.txt : a.out
 	rm -rf result.txt

@@ -258,7 +258,6 @@ void printParameters(paramVar param, const char strA[], int x) {
 	#endif
 
 	fprintf(fp1,"\n*****Time series******\n");
-	fprintf(fp1,"Time step: %f ms\n", param.dt);
 	fprintf(fp1,"Electrode position x: %f cm\n", (float)param.singlePoint_cm.x);
 	fprintf(fp1,"Electrode position y: %f cm\n", (float)param.singlePoint_cm.y);
 	fprintf(fp1,"Electrode position z: %f cm\n", (float)param.singlePoint_cm.z);
