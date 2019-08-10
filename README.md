@@ -2,7 +2,7 @@
 
 ## This software was developerd by: **Hector Augusto Velasco-Perez** @CHAOLS Lab@Georgia Institute of Technology
 
-### Spetial thanks to:
+### Special thanks to:
 - Dr. Flavio Fenton
 - Dr. Claire Yanyan Ji
 - Dr. Abouzar Kaboudian
