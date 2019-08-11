@@ -12,8 +12,8 @@
 This software allows you to solve the Fenton-Karma (FK) model with a diffusive coupling in a 3D domain with a constant rotating conducting anisotropy. The software allows for input/output files and real time graphics for user interactivity. This software is implemented in C/CUDA.
 
 ## Other features
-- Time integration: first order Euler method
-- Spacial coupuling: fourth order Laplacian
+- Time integration: first order explicit Euler method
+- Spacial coupuling: fourth order Laplacian with finite differences
 - Filament tracking: pixel and subpixel resolution
 - Zero-flux boundary conditions and optional periodic boundary conditions at the top and bottom of the domain
 - Switch between anisotropic and isotropic tissue. The anisotropy is a constant rotating anisotropy
