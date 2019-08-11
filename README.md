@@ -18,7 +18,8 @@ This software allows you to solve the Fenton-Karma (FK) model with a diffusive c
 - SOIL.h library (sudo apt-get install libsoil-dev)
 
 ## Software organization (by function)
-
+- main3V-FK.cu
+  * main function
 
 
 ## Software use
