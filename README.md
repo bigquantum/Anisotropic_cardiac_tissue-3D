@@ -26,7 +26,8 @@ This software allows you to solve the Fenton-Karma (FK) model with a diffusive c
 
 ## Software organization (by function)
 - main3V-FK.cu
-  * main function
+  * main function: variable 
+  * 
 
 
 ## Software use
