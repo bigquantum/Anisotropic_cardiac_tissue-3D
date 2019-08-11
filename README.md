@@ -13,11 +13,11 @@ This software allows you to solve the Fenton-Karma (FK) model with a diffusive c
 
 ## Other features
 - Time integration fist Euler method
-- Spacial coupuling: forth order Laplacian
+- Spacial coupuling: fourth order Laplacian
 - Filament tracking: pixel and subpixel resolution
 - Zero-flux boundary conditions and optional periodic boundary conditions at the top and bottom of the domain
-- Switch between anisotropic and isotropic tissue. The anisotropi is a constant rotating anisotropy
-- Switch between single and doubl precision
+- Switch between anisotropic and isotropic tissue. The anisotropy is a constant rotating anisotropy
+- Switch between single and double precision
 
 ## Software requirements
 - CUDA v7 or higher
