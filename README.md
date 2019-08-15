@@ -31,4 +31,4 @@ This software allows you to solve the Fenton-Karma (FK) model with a diffusive c
 
 
 ## Software use
-
+- Open a Linux terminal and type 'make'
