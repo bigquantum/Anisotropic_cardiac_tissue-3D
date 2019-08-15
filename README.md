@@ -37,11 +37,11 @@ This software allows you to solve the Fenton-Karma (FK) model with a diffusive c
      - `ITPERFRAME` is the number of iterations it computes in the background without rendering an image.
      - `Uth` is the filament voltage treshold.
      - `NN` is the size of the array in floats (doubles) to save the tip filament trajectory.
-     - `DOUBLE_PRECISION`: switch between double and single presicion.
-     - `ANISOTROPIC_TISSUE`: switch between isotropic and anisotropic fibers.
-     - `LOAD_DATA`: switch from loading an external file or initializing the simulation with a precoded initial condition.
-     - `SAVE_DATA`: switch between saving data or not saving data.
-     - `SPIRAL_TIP_INTERPOLATION`: Switch between subpixel resolution interpolating algorithm or pixel resolution algorithm for filament tracing.
+     - `DOUBLE_PRECISION`: switch between double and single presicion (comment/uncomment).
+     - `ANISOTROPIC_TISSUE`: switch between isotropic and anisotropic fibers (comment/uncomment).
+     - `LOAD_DATA`: switch from loading an external file or initializing the simulation with a precoded initial condition (comment/uncomment).
+     - `SAVE_DATA`: switch between saving data or not saving data (comment/uncomment).
+     - `SPIRAL_TIP_INTERPOLATION`: Switch between subpixel resolution interpolating algorithm or pixel resolution algorithm for filament tracing (comment/uncomment).
      -Model parameters. Remember to modify the parameters for the floating point type selected.
 - `main3V-FK.cu`: 
      - `strAdress`: memory adress where the output data will be saved.
