@@ -42,7 +42,7 @@ This software allows you to solve the Fenton-Karma (FK) model with a diffusive c
      - `LOAD_DATA`: switch from loading an external file or initializing the simulation with a precoded initial condition (comment/uncomment).
      - `SAVE_DATA`: switch between saving data or not saving data (comment/uncomment).
      - `SPIRAL_TIP_INTERPOLATION`: Switch between subpixel resolution interpolating algorithm or pixel resolution algorithm for filament tracing (comment/uncomment).
-     -Model parameters. Remember to modify the parameters for the floating point type selected.
+     - Model parameters. Remember to modify the parameters for the floating point type selected.
 - `main3V-FK.cu`: 
      - `strAdress`: memory adress where the output data will be saved.
      - The structure `param` contains most of the physical parameters. To see which parameters it contains see `typedef3V-FK.h`.
