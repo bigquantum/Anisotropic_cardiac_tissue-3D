@@ -34,18 +34,18 @@ This software allows you to solve the Fenton-Karma (FK) model with a diffusive c
 - To run the eprogram, open a Linux terminal and type `make`
 - `globalVariables.cuh`:
      - `nx`,`ny`,`nz`: Grid size
-     -`ITPERFRAME` is the number of iterations it computes in the background without rendering an image.
-     -`Uth` is the filament voltage treshold.
-     -`NN` is the size of the array in floats (doubles) to save the tip filament trajectory.
-     -`DOUBLE_PRECISION`: switch between double and single presicion.
-     -`ANISOTROPIC_TISSUE`: switch between isotropic and anisotropic fibers.
-     -`LOAD_DATA`: switch from loading an external file or initializing the simulation with a precoded initial condition.
-     -`SAVE_DATA`: switch between saving data or not saving data.
-     -`SPIRAL_TIP_INTERPOLATION`: Switch between subpixel resolution interpolating algorithm or pixel resolution algorithm for filament tracing.
+     - `ITPERFRAME` is the number of iterations it computes in the background without rendering an image.
+     - `Uth` is the filament voltage treshold.
+     - `NN` is the size of the array in floats (doubles) to save the tip filament trajectory.
+     - `DOUBLE_PRECISION`: switch between double and single presicion.
+     - `ANISOTROPIC_TISSUE`: switch between isotropic and anisotropic fibers.
+     - `LOAD_DATA`: switch from loading an external file or initializing the simulation with a precoded initial condition.
+     - `SAVE_DATA`: switch between saving data or not saving data.
+     - `SPIRAL_TIP_INTERPOLATION`: Switch between subpixel resolution interpolating algorithm or pixel resolution algorithm for filament tracing.
      -Model parameters. Remember to modify the parameters for the floating point type selected.
 - `main3V-FK.cu`: 
      - `strAdress`: memory adress where the output data will be saved.
      - The structure `param` contains most of the physical parameters. To see which parameters it contains see `typedef3V-FK.h`.
-     -`pwdAdress` contains the inputmemory adress (if `LOAD_DATA` in not commented).
-     -`keyboard` function: keyboard shortcuts. All names are self explanetory.
-     -`exitProgram` function: comment/uncomment the functions inside the `#ifdef SAVE_DATA`.
+     - `pwdAdress` contains the inputmemory adress (if `LOAD_DATA` in not commented).
+     - `keyboard` function: keyboard shortcuts. All names are self explanetory.
+     - `exitProgram` function: comment/uncomment the functions inside the `#ifdef SAVE_DATA`.
