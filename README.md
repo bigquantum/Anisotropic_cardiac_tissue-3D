@@ -33,5 +33,5 @@ This software allows you to solve the Fenton-Karma (FK) model with a diffusive c
 ## Software use (in order of appearance)
 - To run the eprogram, open a Linux terminal and type `make`
 - The beginning of the `main` function containes most of the physical parameters such as:
- - `strAdress`: memory adress where the output data will be saved.
+     - `strAdress`: memory adress where the output data will be saved.
 - The `globalVariables.cuh` contains the grid size, model parameters, some hardcoded functions and 
