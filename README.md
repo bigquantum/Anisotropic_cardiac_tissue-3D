@@ -3,10 +3,10 @@
 ## This software was developerd by: **Hector Augusto Velasco-Perez** @CHAOS Lab@Georgia Institute of Technology
 
 ### Special thanks to:
-- Dr. Flavio Fenton
-- Dr. Claire Yanyan Ji
-- Dr. Abouzar Kaboudian
-- Dr. Shahriar Iravanian
+- Dr. @Flavio Fenton
+- Dr. @Claire Yanyan Ji
+- Dr. @Abouzar Kaboudian
+- Dr. @Shahriar Iravanian
 
 ## Software general decription
 This software allows you to solve the Fenton-Karma (FK) model with a diffusive coupling in a 3D domain with a constant rotating conducting anisotropy. The software allows for input/output files and real time graphics for user interactivity. This software is implemented in C/CUDA.
@@ -30,5 +30,8 @@ This software allows you to solve the Fenton-Karma (FK) model with a diffusive c
   * 
 
 
-## Software use
-- Open a Linux terminal and type `make`
+## Software use (in order of appearance)
+- To run the eprogram, open a Linux terminal and type `make`
+- The beginning of the `main` function containes most of the physical parameters such as:
+ - `strAdress`: memory adress where the output data will be saved.
+- The `globalVariables.cuh` contains the grid size, model parameters, some hardcoded functions and 
