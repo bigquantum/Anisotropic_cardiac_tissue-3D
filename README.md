@@ -24,12 +24,6 @@ This software allows you to solve the Fenton-Karma (FK) model with a diffusive c
 - glew.h, glut.h, freeglut.h
 - SOIL.h library (sudo apt-get install libsoil-dev)
 
-## Software organization (by function)
-- main3V-FK.cu
-  * main function: variable 
-  * 
-
-
 ## Software use (in order of appearance)
 - To run the eprogram, open a Linux terminal and type `make`
 - `globalVariables.cuh`:
