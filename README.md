@@ -40,6 +40,6 @@ This software allows you to solve the Fenton-Karma (FK) model with a diffusive c
 - `main3V-FK.cu`: 
      - `strAdress`: memory adress where the output data will be saved.
      - The structure `param` contains most of the physical parameters. To see which parameters it contains see `typedef3V-FK.h`.
-     - `pwdAdress` contains the inputmemory adress (if `LOAD_DATA` in not commented).
+     - `pwdAdress` contains the input-memory adress (if `LOAD_DATA` in not commented).
      - `keyboard` function: keyboard shortcuts. All names are self explanetory.
      - `exitProgram` function: comment/uncomment the functions inside the `#ifdef SAVE_DATA`.
