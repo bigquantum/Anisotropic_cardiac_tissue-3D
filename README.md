@@ -1,5 +1,7 @@
 # Anisotropic cardiac tissue in 3D
 
+<img src=DATA/awesomenessity011.bmp height="500">
+
 ## This software was developerd by: **Hector Augusto Velasco-Perez** @CHAOS Lab@Georgia Institute of Technology
 
 ### Special thanks to:
